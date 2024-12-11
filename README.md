@@ -19,17 +19,29 @@ The Titanic disaster is one of the most infamous tragedies in maritime history. 
 The dataset includes information about passengers such as:
 
 PassengerId: Unique identifier for each passenger.
-Survived: Survival status (0 = No, 1 = Yes).
+
+Survived: Survival status (0 = No, 1 = Yes). 
+
 Pclass: Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd).
+
 Name: Passenger name.
+
 Sex: Gender of the passenger.
+
 Age: Age in years.
+
 SibSp: Number of siblings/spouses aboard.
+
 Parch: Number of parents/children aboard.
+
 Ticket: Ticket number.
+
 Fare: Passenger fare.
+
 Cabin: Cabin number.
+
 Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
+
 Objective
 The primary goals of this analysis are:
 
@@ -60,9 +72,13 @@ Compare performance metrics like accuracy, precision, recall, and F1-score.
 Key findings from the analysis:
 
 Gender: Females had a significantly higher survival rate compared to males.
+
 Class: Passengers in first class were more likely to survive than those in second or third class.
+
 Age: Children had a higher survival rate compared to adults.
+
 Fare: Higher fares were positively correlated with survival.
+
 Predictive models achieved the following metrics:
 
 ## Model	Accuracy	Precision	Recall	F1-Score
